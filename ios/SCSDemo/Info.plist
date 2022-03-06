@@ -51,5 +51,15 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses apple music access as part of its metadata analysis to enable your lender to assess whether you are a good fit.  Metadata analysis does not look at your personal data.  If you allow the app to share this non-personal data, it will be sent to YoYuu&apos;s scoring service.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses photo library access as part of its metadata analysis to enable your lender to assess whether you are a good fit.  Metadata analysis does not look at your personal data.  If you allow the app to share this non-personal data, it will be sent to YoYuu&apos;s scoring service.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses calendar reminders access as part of its metadata analysis to enable your lender to assess whether you are a good fit.  Metadata analysis does not look at your personal data.  If you allow the app to share this non-personal data, it will be sent to YoYuu&apos;s scoring service.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses calendar access as part of its metadata analysis to enable your lender to assess whether you are a good fit.  Metadata analysis does not look at your personal data.  If you allow the app to share this non-personal data, it will be sent to YoYuu&apos;s scoring service.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses contacts as part of its metadata analysis to enable your lender to assess whether you are a good fit.  Metadata analysis does not look at your personal data.  If you allow the app to share this non-personal data, it will be sent to YoYuu&apos;s scoring service.</string>
 </dict>
 </plist>

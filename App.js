@@ -89,14 +89,23 @@ const App: () => Node = () => {
                 //Console.log('Testing');
 
                 //set the authKey and userEmail
-                let authKey = '';
-                let userEmail = '';
+                let authKey = '044bbc6e-37e1-4e7a-bb64-ba8dc8696dd5';
+                let userEmail = 'test@test.com';
 
                 //let scsApiURL = '';
                 //let offerCode = '';
                 //let phonenumber = '';
-                scoreRes = await SCSNative.score(authKey, userEmail);
-                Alert.alert(scoreRes);
+                try{
+                  //scoreRes = await SCSNative.score(authKey, userEmail);
+
+                  //scoreRes = await SCSNative.scoreRefOnly(authKey, userEmail);
+
+                  let scoreRes = await NativeModules.SCSModule.execute("https://app.securecreditsystems.com", authKey, "");
+                  Alert.alert(scoreRes);
+                } catch (exception){
+                  console.error(exception);
+                }
+                
               }}
             />
           </Section>
