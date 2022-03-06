@@ -15,7 +15,7 @@ class SCSModule: RCTEventEmitter {
   @objc(execute:authKey:referenceNumber:resolver:rejecter:)
   func execute(_ url: String, authKey: String, referenceNumber: String, resolver resolve: @escaping RCTPromiseResolveBlock, rejecter reject: @escaping RCTPromiseRejectBlock) -> Void {
     
-    let authKey = "044bbc6e-37e1-4e7a-bb64-ba8dc8696dd5"
+    let authKey = "ed7482b8-22ce-45c4-b49c-f8e42321ea7a"
     //let userEmail = 'test@test.com';
     if #available(iOS 13.0, *) {
       Task {
