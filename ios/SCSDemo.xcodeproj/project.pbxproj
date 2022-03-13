@@ -8,20 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SCSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SCSDemoTests.m */; };
+		0619EFE227DE3FA600A967DA /* CredoAppContacts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0619EFDC27DE3FA600A967DA /* CredoAppContacts.xcframework */; };
+		0619EFE327DE3FA600A967DA /* CredoAppCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0619EFDD27DE3FA600A967DA /* CredoAppCore.xcframework */; };
+		0619EFE427DE3FA600A967DA /* CredoAppCalendarEvents.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0619EFDE27DE3FA600A967DA /* CredoAppCalendarEvents.xcframework */; };
+		0619EFE527DE3FA600A967DA /* CredoAppMedia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0619EFDF27DE3FA600A967DA /* CredoAppMedia.xcframework */; };
+		0619EFE627DE3FA600A967DA /* CredoAppMusic.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0619EFE027DE3FA600A967DA /* CredoAppMusic.xcframework */; };
+		0619EFE727DE3FA600A967DA /* CredoAppCalendarReminders.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0619EFE127DE3FA600A967DA /* CredoAppCalendarReminders.xcframework */; };
 		068F9BD627D17D8800060F00 /* SCSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 068F9BD527D17D8800060F00 /* SCSBridge.m */; };
 		068F9BD927D1ACD100060F00 /* SCSModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F9BD827D1ACD100060F00 /* SCSModule.swift */; };
-		068F9C0327D1CC0000060F00 /* CredoAppCalendarEvents.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BF727D1CB0900060F00 /* CredoAppCalendarEvents.xcframework */; };
-		068F9C0427D1CC0000060F00 /* CredoAppCalendarEvents.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BF727D1CB0900060F00 /* CredoAppCalendarEvents.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		068F9C0527D1CC0100060F00 /* CredoAppCalendarReminders.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BFA27D1CB0900060F00 /* CredoAppCalendarReminders.xcframework */; };
-		068F9C0627D1CC0100060F00 /* CredoAppCalendarReminders.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BFA27D1CB0900060F00 /* CredoAppCalendarReminders.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		068F9C0727D1CC0200060F00 /* CredoAppContacts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BF827D1CB0900060F00 /* CredoAppContacts.xcframework */; };
-		068F9C0827D1CC0200060F00 /* CredoAppContacts.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BF827D1CB0900060F00 /* CredoAppContacts.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		068F9C0927D1CC0400060F00 /* CredoAppCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BF927D1CB0900060F00 /* CredoAppCore.xcframework */; };
-		068F9C0A27D1CC0400060F00 /* CredoAppCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BF927D1CB0900060F00 /* CredoAppCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		068F9C0B27D1CC0600060F00 /* CredoAppMedia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BFB27D1CB0900060F00 /* CredoAppMedia.xcframework */; };
-		068F9C0C27D1CC0600060F00 /* CredoAppMedia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BFB27D1CB0900060F00 /* CredoAppMedia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		068F9C0D27D1CC0800060F00 /* CredoAppMusic.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BFC27D1CB0900060F00 /* CredoAppMusic.xcframework */; };
-		068F9C0E27D1CC0800060F00 /* CredoAppMusic.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 068F9BFC27D1CB0900060F00 /* CredoAppMusic.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		06A723D327D3C7C800BB6F63 /* SCSSDKiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A723CF27D3AA2F00BB6F63 /* SCSSDKiOS.xcframework */; };
 		06A723D427D3C7C800BB6F63 /* SCSSDKiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06A723CF27D3AA2F00BB6F63 /* SCSSDKiOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -49,13 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				068F9C0827D1CC0200060F00 /* CredoAppContacts.xcframework in Embed Frameworks */,
 				06A723D427D3C7C800BB6F63 /* SCSSDKiOS.xcframework in Embed Frameworks */,
-				068F9C0627D1CC0100060F00 /* CredoAppCalendarReminders.xcframework in Embed Frameworks */,
-				068F9C0C27D1CC0600060F00 /* CredoAppMedia.xcframework in Embed Frameworks */,
-				068F9C0E27D1CC0800060F00 /* CredoAppMusic.xcframework in Embed Frameworks */,
-				068F9C0427D1CC0000060F00 /* CredoAppCalendarEvents.xcframework in Embed Frameworks */,
-				068F9C0A27D1CC0400060F00 /* CredoAppCore.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,15 +54,15 @@
 		00E356EE1AD99517003FC87E /* SCSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SCSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSDemoTests.m; sourceTree = "<group>"; };
+		0619EFDC27DE3FA600A967DA /* CredoAppContacts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppContacts.xcframework; path = "../../../dist/sdk-dist/ios/scoring/CredoAppContacts.xcframework"; sourceTree = "<group>"; };
+		0619EFDD27DE3FA600A967DA /* CredoAppCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppCore.xcframework; path = "../../../dist/sdk-dist/ios/scoring/CredoAppCore.xcframework"; sourceTree = "<group>"; };
+		0619EFDE27DE3FA600A967DA /* CredoAppCalendarEvents.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppCalendarEvents.xcframework; path = "../../../dist/sdk-dist/ios/scoring/CredoAppCalendarEvents.xcframework"; sourceTree = "<group>"; };
+		0619EFDF27DE3FA600A967DA /* CredoAppMedia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppMedia.xcframework; path = "../../../dist/sdk-dist/ios/scoring/CredoAppMedia.xcframework"; sourceTree = "<group>"; };
+		0619EFE027DE3FA600A967DA /* CredoAppMusic.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppMusic.xcframework; path = "../../../dist/sdk-dist/ios/scoring/CredoAppMusic.xcframework"; sourceTree = "<group>"; };
+		0619EFE127DE3FA600A967DA /* CredoAppCalendarReminders.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppCalendarReminders.xcframework; path = "../../../dist/sdk-dist/ios/scoring/CredoAppCalendarReminders.xcframework"; sourceTree = "<group>"; };
 		068F9BD527D17D8800060F00 /* SCSBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSBridge.m; sourceTree = "<group>"; };
 		068F9BD827D1ACD100060F00 /* SCSModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSModule.swift; sourceTree = "<group>"; };
 		068F9BDA27D1AD9F00060F00 /* SCSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		068F9BF727D1CB0900060F00 /* CredoAppCalendarEvents.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppCalendarEvents.xcframework; path = "../../../dist/sdk-dist/ios/credo/CredoAppCalendarEvents.xcframework"; sourceTree = "<group>"; };
-		068F9BF827D1CB0900060F00 /* CredoAppContacts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppContacts.xcframework; path = "../../../dist/sdk-dist/ios/credo/CredoAppContacts.xcframework"; sourceTree = "<group>"; };
-		068F9BF927D1CB0900060F00 /* CredoAppCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppCore.xcframework; path = "../../../dist/sdk-dist/ios/credo/CredoAppCore.xcframework"; sourceTree = "<group>"; };
-		068F9BFA27D1CB0900060F00 /* CredoAppCalendarReminders.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppCalendarReminders.xcframework; path = "../../../dist/sdk-dist/ios/credo/CredoAppCalendarReminders.xcframework"; sourceTree = "<group>"; };
-		068F9BFB27D1CB0900060F00 /* CredoAppMedia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppMedia.xcframework; path = "../../../dist/sdk-dist/ios/credo/CredoAppMedia.xcframework"; sourceTree = "<group>"; };
-		068F9BFC27D1CB0900060F00 /* CredoAppMusic.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CredoAppMusic.xcframework; path = "../../../dist/sdk-dist/ios/credo/CredoAppMusic.xcframework"; sourceTree = "<group>"; };
 		06A723CF27D3AA2F00BB6F63 /* SCSSDKiOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SCSSDKiOS.xcframework; path = ../../../dist/SCSSDKiOS.xcframework; sourceTree = "<group>"; };
 		0CA56C03364C2634ED4E4800 /* Pods-SCSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCSDemo.release.xcconfig"; path = "Target Support Files/Pods-SCSDemo/Pods-SCSDemo.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SCSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,13 +94,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A723D327D3C7C800BB6F63 /* SCSSDKiOS.xcframework in Frameworks */,
-				068F9C0727D1CC0200060F00 /* CredoAppContacts.xcframework in Frameworks */,
-				068F9C0527D1CC0100060F00 /* CredoAppCalendarReminders.xcframework in Frameworks */,
-				068F9C0327D1CC0000060F00 /* CredoAppCalendarEvents.xcframework in Frameworks */,
-				068F9C0927D1CC0400060F00 /* CredoAppCore.xcframework in Frameworks */,
-				068F9C0B27D1CC0600060F00 /* CredoAppMedia.xcframework in Frameworks */,
-				068F9C0D27D1CC0800060F00 /* CredoAppMusic.xcframework in Frameworks */,
+				0619EFE427DE3FA600A967DA /* CredoAppCalendarEvents.xcframework in Frameworks */,
+				0619EFE527DE3FA600A967DA /* CredoAppMedia.xcframework in Frameworks */,
+				0619EFE627DE3FA600A967DA /* CredoAppMusic.xcframework in Frameworks */,
 				B5DA166A3BA3DECB43D642EA /* libPods-SCSDemo.a in Frameworks */,
+				0619EFE727DE3FA600A967DA /* CredoAppCalendarReminders.xcframework in Frameworks */,
+				0619EFE327DE3FA600A967DA /* CredoAppCore.xcframework in Frameworks */,
+				0619EFE227DE3FA600A967DA /* CredoAppContacts.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,13 +143,13 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0619EFDE27DE3FA600A967DA /* CredoAppCalendarEvents.xcframework */,
+				0619EFE127DE3FA600A967DA /* CredoAppCalendarReminders.xcframework */,
+				0619EFDC27DE3FA600A967DA /* CredoAppContacts.xcframework */,
+				0619EFDD27DE3FA600A967DA /* CredoAppCore.xcframework */,
+				0619EFDF27DE3FA600A967DA /* CredoAppMedia.xcframework */,
+				0619EFE027DE3FA600A967DA /* CredoAppMusic.xcframework */,
 				06A723CF27D3AA2F00BB6F63 /* SCSSDKiOS.xcframework */,
-				068F9BF727D1CB0900060F00 /* CredoAppCalendarEvents.xcframework */,
-				068F9BFA27D1CB0900060F00 /* CredoAppCalendarReminders.xcframework */,
-				068F9BF827D1CB0900060F00 /* CredoAppContacts.xcframework */,
-				068F9BF927D1CB0900060F00 /* CredoAppCore.xcframework */,
-				068F9BFB27D1CB0900060F00 /* CredoAppMedia.xcframework */,
-				068F9BFC27D1CB0900060F00 /* CredoAppMusic.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				A356E6429BFAF4905A9C119E /* libPods-SCSDemo.a */,
 				E1F774C41663E026008D6501 /* libPods-SCSDemo-SCSDemoTests.a */,
@@ -554,7 +542,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PM8388GQU4;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/gewing/SCS/dev/scs_react_native_demo/ios/Pods/Flipper-DoubleConversion/Frameworks/**",
+					"/Users/gewing/SCS/dev/scs_react_native_demo/ios/Pods/DoubleConversion/double-conversion/**",
+					"/Users/gewing/SCS/dev/scs_react_native_demo/ios/Pods/**",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -596,7 +588,7 @@
 					"\"${PODS_ROOT}/Target Support Files/OpenSSL-Universal\"",
 				);
 				INFOPLIST_FILE = SCSDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,7 +656,7 @@
 					"\"${PODS_ROOT}/Target Support Files/OpenSSL-Universal\"",
 				);
 				INFOPLIST_FILE = SCSDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -715,6 +707,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -780,6 +773,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
